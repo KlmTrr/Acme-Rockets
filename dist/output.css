@@ -588,6 +588,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .flex {
   display: flex;
 }
@@ -1228,6 +1232,32 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:my-24 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .md\:my-40 {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .md\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .md\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .md\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
   .md\:block {
     display: block;
   }
